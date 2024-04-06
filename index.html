@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rcepie App Using Vannila Js</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="meal-wrapper">
+        <div class="meal-search">
+          <h2 class="title">Find Meals For Your Ingredients</h2>
+          <blockquote>
+            Real food doesn't have ingredients, real food is ingredients.<br />
+          </blockquote>
+
+          <div class="meal-search-box">
+            <input
+              type="text"
+              class="search-control"
+              placeholder="Enter an ingredient"
+              id="search-input"
+            />
+
+            <button type="submit" class="btn search-btn" id="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+
+          <div class="meal-result">
+            <h2 class="title">Your Search Results:</h2>
+            <div id="meal">
+              <!-- meal item -->
+              <!-- <div class="meal-item">
+                            <div class="meal-img">
+                                <img src="767277.jpg" alt="">
+                            </div>
+                            <div class="meal-name">
+                                <h3>Potato Chips</h3>
+                                <a href="#" class="recipe-btn">Get Recipe</a>
+                            </div>
+                        </div> -->
+              <!-- end of meal item -->
+            </div>
+          </div>
+
+          <div class="meal-details">
+            <!-- recipe close btn -->
+            <button
+              type="button"
+              class="btn recipe-btn-close"
+              id="recipe-btn-close"
+            >
+              <i class="fas fa-close"></i>
+            </button>
+
+            <div class="meal-detail-content">
+              <!-- <h2 class="recipe-title">Meal's Name Here</h2>
+                        <p class="recipe-category">Recipe Category</p>
+                        <div class="recipe-instruct">
+                            <h3>Instructions:</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, laudantium cupiditate reiciendis porro iste natus. Iure, alias. Quisquam aliquid totam dolore deserunt necessitatibus minus sit sapiente odit illo? Eos, dolorem.</p>
+                        </div>
+                        <div class="meal-recipe-img">
+                            <img src="767277.jpg" alt="">
+                        </div>
+                        <div class="recipe-link">
+                            <a href="#" target="_blank">Watch Video</a>
+                        </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+    <script
+      src="https://mediafiles.botpress.cloud/f0d91497-a973-4e6f-9fb7-e24c4bc36726/webchat/config.js"
+      defer
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
